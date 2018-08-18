@@ -1,10 +1,10 @@
 
 const machine = {
-	motors: 4,
+  motors: 4,
 };
 
 const robot = {
-	friendly: true,
+  friendly: true,
 };
 robot.__proto__ = machine;
 
@@ -15,7 +15,7 @@ claim(robby.motors, 4);
 claim(robby.friendly, true);
 
 module.exports = {
-	machine: machine,
-	robot:   robot,
-	robby:   robby
-}
+  machine,
+  robot,
+  robby,
+};
